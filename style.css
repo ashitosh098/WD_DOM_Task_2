@@ -43,21 +43,6 @@ font-weight:bold;
 
 tr:hover {background-color: #7fb6cc;}
 
-.div1{
-    width:60%;
-    margin-left: auto;
-    margin-right: auto;
-    color:rgb(80, 77, 77);
-font-weight:bold;
-    padding: 20px;
-}
-label{
-    background-color: khaki;
-    padding :8px;
-    border-radius: 15px;
-}
-
-/* pagination CSS starts here */
 .pagination{
     width: 60%;
     margin-left: auto;
@@ -68,8 +53,7 @@ label{
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  table, .pagination, .div1 {
+  table, .pagination {
     width: 100%;
   }
 }
